@@ -67,7 +67,7 @@
 						</div>
 						<div class="input-field col s3"></div>
 					</div>
-					<div class="g-recaptcha" data-sitekey="6LdRyhgTAAAAAH_ciGOM6hgsMVR-P3QtNiqT-5K8"></div>
+					
 		    		<a onclick='$("#status")[0].reset();grecaptcha.reset();' style="margin:20px 0px;" class="btn waves-effect waves-light blue left">Clear</a>
 		    		<button class="btn waves-effect waves-light green right" type="submit" name="action" style="margin:20px 0px;">Check</button>
 	    		</div>
