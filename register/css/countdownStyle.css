@@ -1,0 +1,55 @@
+.countdown {
+text-align:center;
+}
+.styled{
+margin-bottom: 30px;
+}
+.styled div {
+display: inline-block;
+font-size: 80px;
+font-weight: 900;
+text-align: center;
+margin: 20px 0px 0px 0px;
+padding: 0px 10px;
+text-shadow: none;
+vertical-align: middle;
+}
+
+*+html .styled div{
+  display: inline;
+  zoom: 1;
+}
+.styled div:first-child {
+  margin-left: 0;
+}
+.styled div span {
+display: block;
+padding-top: 3px;
+font-size: 21px;
+font-weight: 400;
+text-align: center;
+}
+@media(max-width:1024px){
+	body {
+		min-width: initial !important;
+	}
+	.wrapper{width:100%;}
+	.styled div {
+	  margin: 10px 0px 0px 0px;
+	  padding: 0px 5px;
+	  font-size: 40px;
+	  font-weight: normal; 
+	  text-align: center;
+	}
+}
+@media(max-width:512px){
+	.styled div {
+	  margin-bottom:10px;
+	  font-size: 30px;
+	  font-weight: normal; 
+	  text-align: center;
+	}
+	.styled div span {
+		font-size: 15px;
+	}
+}

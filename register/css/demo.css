@@ -1,0 +1,46 @@
+@import url('reset.css');
+
+body {
+	background:#1f1f1f url(../img/highlights/controls/pattern.png) repeat top left !important;
+}
+.container {
+	background-color:rgba(0, 0, 0, 0) !important;
+}
+#rightMenu {
+	color: white !important;
+}
+.menu-icon .stripe {
+	border-color: white !important;
+	background-color: white !important;
+}
+.content{
+	margin:10px 25px 30px 25px;
+}
+.rg-image, .rg-image img, .rg-image-wrapper{
+	vertical-align: middle;
+}
+.rg-view{
+	display: none;
+}
+.rg-image, .rg-image-wrapper{
+	height: 70vh;
+}
+@media screen and (max-width: 640px) {
+	.header a{
+		display:block;
+		text-align:center;
+		font-size:10px;
+		text-shadow:none;
+	}
+	.header span.right_ab{
+		float:none;
+	}
+	.rg-image, .rg-image-wrapper{
+		height: 45vh;
+	}
+}
+@media (max-width: 480px) {
+	.rg-image, .rg-image-wrapper{
+		height: 22vh;
+	}
+}
