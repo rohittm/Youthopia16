@@ -2877,6 +2877,22 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
     width: calc(44% + 26px);
     box-sizing: border-box;
 }
+.bottom-link1{
+    border-top: 4px solid #f6f6f6;
+    color: #3e3e3e;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "stolzlmedium";
+    line-height: 1.5;
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    padding: 30px 10%;
+    width: 44.5%;
+    width: -webkit-calc(44% + 26px);
+    width: calc(44% + 26px);
+    box-sizing: border-box;
+}
 .bottom-link:before{
     content: "";
     height: 4px;
@@ -2894,6 +2910,7 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
     -moz-transition: 0.5s ease;
     -ms-transition: 0.5s ease;
 }
+
 .static-content .container{
     /*background: -webkit-linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);
     background: -moz-linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);

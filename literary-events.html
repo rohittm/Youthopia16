@@ -1,42 +1,67 @@
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<base>
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Nitin Pathak, www.nitinpathak.com ; Rohit Motwani, www.RohitMotwani.com" />
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
+	<meta name="author" content="Nitin Pathak, www.nitinpathak.com ; Rohit Motwani, www.RohitMotwani.com";Shreyas Srivastava />	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
 	<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
 	<link rel="icon" href="favicon.ico?" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/countdownStyle.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/preloader.css">
-	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<script type="text/javascript" src="js/libs.min.js"></script>
 	<meta property="og:image" content="img/logo.png" />
 	<meta name="Description" content="Youthopia '16 - Technical and Cultural Fest">
-	<title>Youthopia '16 | This Page is Under Construction</title>
+	<title>Youthopia '16 | Literary Events</title>
 </head>
 <script type="text/javascript">
     //<![CDATA[
         $(window).load(function() {
             $('#status').fadeOut('slow');
-            $('#preloader').delay(350).fadeOut('slow',function(){
-				animateItems(500);
-			});
-        });
+            $('#preloader').delay(350).fadeOut('slow');
+            $('body').delay(350).css({'overflow':'visible'});
+        })
     //]]>
 </script>
-<body class="stick homepage">
-	<section id="mainId" class="static-content transition">
+<body>
+	
+	<section class="absolute subHeight">
+		<div class="container relative">
+			<div class="big-grey-stripe bigger hide"></div>
+			<div class="additional-parts absolute" data-parallax='{"y" : -400, "from-scroll": 20, "smoothness": 20}'>
+				<div id="middlePart" class="workshop-part transition hide animated fadeIn wow" data-wow-delay="0.8s"></div>
+			</div>
+			<div class="additional-parts absolute" data-parallax='{"y" : -100, "from-scroll": 40, "smoothness": 20}'>
+				<div class="overlapThirdFigure absolute">
+					<div class="rotate-45">
+						<div id="thirdPartWorkshops" class="transition hide animated fadeInUp wow" data-wow-delay="0.4s"></div>
+					</div>
+				</div>
+			</div>
+			<div class="additional-parts absolute" data-parallax='{"y" : -600, "from-scroll": 40, "smoothness": 20}'>
+				<div class="overlapFourthFigure absolute">
+					<div class="rotate-45">
+						<div id="fourthPartWorkshops" class="transition hide animated fadeInUp wow" data-wow-delay="0.6s"></div>
+					</div>
+				</div>
+			</div>
+			<div class="additional-parts absolute" data-parallax='{"y" : -800, "from-scroll": 40, "smoothness": 20}'>
+				<div id="secondPartWorkshops" class="transition hide absolute animated fadeInDown wow" data-wow-delay="0.2s"></div>
+			</div>
+			<div class="additional-parts absolute" data-parallax='{"y" : -1400, "from-scroll": 20, "smoothness": 20}'>
+				<div id="firstPartWorkshops" class="transition hide absolute animated fadeInDown wow" data-wow-delay="0s"></div>
+			</div>
+		</div>
+	</section>
+	<section class="static-content transition workshop-static-section">
 		<div class="container">
-			<a href="http://www.dituniversity.edu.in" target="_blank" class="event-left-link animScrollLink transition">
+			<a class="event-left-link animScrollLink transition">
 				<img src="img/dit_logo.png" alt="DIT University" class="transition">
 			</a>
-			<!--<a href="#" class="tickets event-link yellow animScrollLink transition">
-				<span class="badge absolute transition hide">Soon!</span>Register
-			</a>-->
+			<a href="register/index.php" class="tickets event-link yellow animScrollLink transition">
+				Register
+			</a>
 			<div class="aside left absolute yellow side-link">
 				<a href="http://www.youthopia16.in" class="absolute fill flex-center flex">
 					<span>
@@ -47,23 +72,16 @@
 					</span>
 				</a>
 			</div>
-			<div class="main flex flex-center fillAndCenter home">
+			<div class="fillAndCenter main flex flex-center padding-2x inner-page program">
 				<div class="inside">
-					<p class="mainTitle"><img src="img/logo.png"></p>
-					<p class="note">THIS PAGE IS UNDER CONSTRUCTION ! <br> STAY TUNED FOR AWESOMENESS</p>
-					<div class="countdown styled fadeInUp animated wow"></div>
+					<p class="mainTitle">Aakriti 16</p>
+					<p class="note" style="text-shadow: 0px 1px #000;"><br><br><br>If you hear a voice within you saying "you are not a painter"then by all means paint and that voice will be silenced - Vincent Van Gogh</p>
 				</div>
 			</div>
-			<div class="additionalInfo right-align">
-				<p class="bold date hide">20 - 22 Oct '16</p>
-				<p class="city hide">Dehradun - Uttarakhand</p>
-				<p class="company hide">
-					<a href="http://www.dituniversity.edu.in" target="_blank">
-						<span class="hoverStripe relative margin-right">DIT University</span>
-					</a>
-				</p>
+			<div data-offset="-150" data-id="#workshopSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
+				<i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
-			<div class="aside right absolute hide flex flex-center pointer closed menu">
+			<div class="aside right absolute hide flex flex-center white pointer closed menu">
 				<div class="menu-icon">
 					<span class="stripe"></span>
 					<span class="stripe"></span>
@@ -72,11 +90,92 @@
 				</div>
 			</div>
 		</div>
-		<!--<div class="fixer-container absolute">
-			<a href="#" class="bottom-link"><span class="hoverStripe relative">Schedule</span></a>
-		</div>-->
 	</section>
-	<div id="sideBarId" class="sideBar hidden absolute transition fullHeight">
+	<section class="scrollableContent relative workshop-section" id="workshopSection" data-parallax='{"y" : -150, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
+		<div class="container">
+			<p class="blockTitle">
+				You can register for the events right now &amp; <br> pay later on the &quot;Youthopia '16 Help Desk&quot; near Cafeteria.
+			</p>
+			<p class="block-content">
+				Without payment you wouldn't be allowed to participate in the event.
+			</p>
+		</div>
+	</section>
+	<section class="scrollableContent relative workshop-modal-section" data-parallax='{"y" : -150, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
+		<div class="container">
+			<div class="col s12 l4 m12 workshop-block wow animated fadeInUp" data-wow-delay="0s">
+				<div class="workshop-inner yellow-hover left-align transition modal-trigger" data-open="#content1">
+					<p class="blockTitle">Literary & Fine arts</p>
+					<p class="blockSub"></p>
+					<div class="filter relative">
+						<img src="img/workshops/lit1.jpg">
+					</div>
+					<p class="owner">Craft Event<span> / 20 Oct</span></p>
+					<p class="block-content">
+						It's time for ONE and ALL to show their creative skills and artistic imagination during the listed events.
+					</p>
+				</div>
+			</div>
+			
+			
+			
+			
+		</div>
+	</section>
+	
+		<div class="workshop-popup" id="content1">
+		<div class="workshop-popup-header grey">
+		<div class="workshop-popup-header grey">
+				<div class="close modal" data-close="#content1">
+					<span class="menu-close" style="background: none; border: none;">CLOSE</span><br>
+					<span class="menu-close"></span>
+				</div>
+				<div class="workshop-popup-inner">
+					<img src="img/workshops/lit1_big.jpg">
+				</div>
+			</div>
+			<div class="workshop-popup-body white">
+				<div class="workshop-popup-inner">
+					<p class="blockTitle modal">Literary& Fine art</p>
+					
+					<p class="block-content">Art is a general term that defines the ability for an individual to creatively express their imagination in a visual form such as a painting or sculpture
+
+So he we are with the much awaited Aakriti'16
+It's time for ONE and ALL to show their creative skills and artistic imagination during the listed events. 
+					<br><br></p>
+					<p class="block-content">We have 1st ,2nd and 3rd prize
+					<br><br></p>
+					<p class="block-content">For more information contact the helpdesk near cafeteria
+					<br><br></p>
+					
+				</div>
+			</div>
+			
+			<div class="workshop-popup-footer grey">
+				<div class="workshop-popup-inner">
+					<p class="absolute owner">
+						<span>Contact: </span>Animesh Kumar<span> / +91 82 72 819206</span><br>
+						<span>Contact: </span>Kartik Kumar<span> / +91 70 60 328960</span><br>
+						<span>Contact: </span>Manas Kumar<span> / +91 89 79 554459</span>
+					</p>
+					<p class="blockTitle modal">Literary & Fine arts</p>
+					
+					<p class="ticketsEventLink">
+						<a href="register/index.php" class="event-link yellow transition modal">Register</a>
+					</p>
+					<p class="owner modal">You can register for selected events by clicking on the button above!</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		
+	
+		
+		
+		
+	
+	<div class="sideBar hidden absolute transition fullHeight">
 		<div class="inner-content right">
 			<div class="lang">
 				<div class="close">
@@ -91,10 +190,11 @@
 				<li><a href="technical-events.html">Technical Events</a></li>
 				<li><a href="informal-events.html">Informal Events</a></li>
 				<li><a href="gaming-events.html">Gaming Events</a></li>
-				<li><a href="literary-events.html">Literary & Fine Arts Events</a></li>
+				<li><a href="literary-events.html">Literary Events</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
 				<li><a href="sponsors.html">Sponsors</a></li>
 				<li><a href="under.html">Schedule</a></li>
-				<li class="ticketsMobileLink"><a href="under.html">Register</a></li>
+				<li class="ticketsMobileLink"><a href="register/index.php">Register</a></li>
 			</ul>
 			<div class="socials">
 				<a href="https://instagram.com/dityouthopia16" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -108,11 +208,21 @@
 <script>
     new WOW().init();
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85361078-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <script type="text/javascript" src="js/partials.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/jquery.parallax-scroll.js"></script>
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
-<script type="text/javascript" src="js/homepage.js"></script>
+<script type="text/javascript" src="js/appear.js"></script>
+<script type="text/javascript" src="js/workshops.js"></script>
 <script type="text/javascript" src="js/ga.js"></script>
 </body>
 <div id="preloader">
