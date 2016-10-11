@@ -3261,7 +3261,7 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
     width: 257px;
     max-width: 100%;
     text-align: center;
-    margin-bottom:60px;
+    /*margin-bottom:60px;*/
 }
 .owner.modal span {
     letter-spacing: 1px;
