@@ -36,7 +36,7 @@ class dbControl{
 		$clg=ucwords(mysqli_real_escape_string($this->conn,htmlspecialchars($clg)));
 		$city=ucwords(mysqli_real_escape_string($this->conn,htmlspecialchars($city)));
 		$xtr=mysqli_real_escape_string($this->conn,htmlspecialchars($xtr));
-		$query="INSERT INTO registers(registration_id, event_id, first_name, last_name, age, gender, email, mobile, college_name, college_city, notes, payment) VALUES('$reg', '$ev', '$fn', '$ln', '$dob', '$gn', '$eid', '$mob', '$clg', '$city', '$xtr', $pay)";
+		$query="INSERT INTO registers(registration_id, event_id, first_name, last_name, age, gender, email, mobile, college_name, college_city, notes, 			payment) VALUES('$reg', '$ev', '$fn', '$ln', '$dob', '$gn', '$eid', '$mob', '$clg', '$city', '$xtr', $pay)";
 		$result=$this->conn->query($query);
 		$cQuery="UPDATE counters SET counter1 =" . ($count1+1);
 		$rQuery=$this->conn->query($cQuery);
