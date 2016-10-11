@@ -5,7 +5,6 @@
 	<meta name="format-detection" content="telephone=no"/>
 	<meta name="msapplication-tap-highlight" content="no"/>
 	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
-    <meta name="author" content="Nitin Pathak, www.nitinpathak.com ;" />
 	<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
 	<link rel="icon" href="favicon.ico?" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
@@ -67,7 +66,7 @@
 						</div>
 						<div class="input-field col s3"></div>
 					</div>
-					
+
 		    		<a onclick='$("#status")[0].reset();grecaptcha.reset();' style="margin:20px 0px;" class="btn waves-effect waves-light blue left">Clear</a>
 		    		<button class="btn waves-effect waves-light green right" type="submit" name="action" style="margin:20px 0px;">Check</button>
 	    		</div>

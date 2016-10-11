@@ -5,7 +5,6 @@
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="msapplication-tap-highlight" content="no" />
 	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
-    <meta name="author" content="Nitin Pathak, http://nitinpathak.com"/>
     <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
 	<link rel="icon" href="favicon.ico?" type="image/x-icon">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

@@ -5,7 +5,6 @@
 	<meta name="format-detection" content="telephone=no"/>
 	<meta name="msapplication-tap-highlight" content="no"/>
 	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
-    <meta name="author" content="Nitin Pathak, www.nitinpathak.com ;" />
 	<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
 	<link rel="icon" href="favicon.ico?" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
@@ -63,7 +62,7 @@
 						<div class="input-field col s12">
 							<select id="event" name="ev">
 								<option value="TEC-500-Combatderobo" selected>TECHNICAL - Combat-de-Robo - &#8377; 500/-per team</option>
-								<option value="TEC-300-sherlocked">TECHNICAL - Sherlocked - &#8377; 300/- per team</option>								
+								<option value="TEC-300-sherlocked">TECHNICAL - Sherlocked - &#8377; 300/- per team</option>
 								<option value="TEC-0-codingrampage">TECHNICAL - Coding Rampage - &#8377; 0/- per person</option>
 								<option value="TEC-50-codebusters">TECHNICAL - Code Busters - &#8377; 50/- per person</option>
 								<option value="TEC-400-wildsoccer">TECHNICAL - Wild Soccer - &#8377; 400/- per team</option>
@@ -118,7 +117,7 @@
 					<div class="row">
 						<div class="input-field col s12">
 							<input id="email" name="eid" type="email" class="validate" length="30" placeholder="np1810@gmail.com">
-							<label for="email">Email Id<span class="red-text"> *</span></label> 
+							<label for="email">Email Id<span class="red-text"> *</span></label>
 						</div>
 					</div>
 					<div class="row">
@@ -134,7 +133,7 @@
 					<div class="row">
 						<div class="input-field col s12">
 							<input id="xtra" name="xtr" class="validate" type="text" placeholder="Extra Info can go here..." length="250">
-							<label for="xtra">Notes</label> 
+							<label for="xtra">Notes</label>
 						</div>
 					</div>
 		    		<a onclick='$("#register")[0].reset();grecaptcha.reset();' style="margin:20px 0px;" class="btn waves-effect waves-light blue left">Clear</a>
