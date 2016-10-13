@@ -3720,6 +3720,18 @@ a:hover .innerHoverStripe {
     padding-right: 33%;
     background: url("../img/about/aboutImg4.png") 90% 55% no-repeat;
 }
+.aboutImg5{
+	padding-top: 0;
+	padding-left: 140px;
+	padding-right: 33%;
+	background: url("../img/about/aboutImg5.png") 90% 55% no-repeat;
+}
+.aboutImg6{
+	padding-top: 0;
+	padding-left: 140px;
+	padding-right: 33%;
+	background: url("../img/about/aboutImg6.png") 90% 55% no-repeat;
+}
 .about-us-info .block-content{
     line-height: 36px
 }
