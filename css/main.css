@@ -2475,7 +2475,7 @@ img.lemon{
     padding: 0;
 }
 .nav{
-    padding: 50px 0 20px;
+    padding: 30px 0 20px;
 }
 .margin-right{
     margin: 0 -10px 0 0;
@@ -2651,7 +2651,7 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
 .socials{
     position: absolute;
     right: 40px;
-    bottom: 80px;
+    bottom: 25px;
 }
 .overlay{
     z-index: 998;
