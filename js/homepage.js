@@ -16,7 +16,7 @@ function animateItems(duration){
 }
 
 $(function() {
-	var endDate = "October  20, 2016 9:00:00";
+	var endDate = "October 20, 2016 09:00:00";
 	if (new Date(endDate) - Date.now() > 0)
 	{
 		$('.countdown.styled').countdown({
